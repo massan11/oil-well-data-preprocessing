@@ -13,3 +13,39 @@ such as flow rate prediction or anomaly detection.
 - **Period:** 2013–2021
 
 ## Project Structure
+oil-well-data-preprocessing/
+
+│
+
+├── data/
+
+│   ├── raw/          # Original dataset
+
+│   └── processed/    # Cleaned dataset
+
+│
+
+├── notebooks/
+
+│   └── 01_preprocessing.ipynb
+
+│
+
+├── requirements.txt
+
+└── README.md
+## Steps
+- [ ] Data loading and initial inspection
+- [ ] Missing value analysis and handling
+- [ ] Outlier detection and treatment
+- [ ] Data type correction
+- [ ] Feature engineering
+- [ ] Export cleaned data
+
+## Tools & Libraries
+- Python 3.x
+- Pandas, NumPy
+- Matplotlib, Seaborn
+
+## Author
+Hashem — Petroleum Engineer | AI/ML Enthusiast
